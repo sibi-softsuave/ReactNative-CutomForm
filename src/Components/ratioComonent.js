@@ -15,7 +15,7 @@ const RatioQuestion = ({onSelect}) => {
   };
 
   return (
-    <View style={{marginVertical: 10}}>
+    <View style={{marginVertical: 5}}>
       <RadioGroup
         radioButtons={radioButtons}
         onPress={handlePress}
